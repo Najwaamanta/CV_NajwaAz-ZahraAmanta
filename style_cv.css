@@ -1,3 +1,4 @@
+/* Mengatur tampilan dasar halaman */
 body {
     background-color: #32522e;
     font-family: 'Tahoma', sans-serif;
@@ -6,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Mengatur tampilan utama dari kontainer */
 .container {
     width: 850px;
     background: #ffffff;
@@ -15,12 +17,14 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Mengatur bagian header (foto & nama) */
 .header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
+/* Mengatur tampilan gambar profil */
 .profile-img {
     width: 200px;
     height: 200px;
@@ -30,12 +34,14 @@ body {
     margin-right: 20px;
 }
 
+/* Mengatur ukuran font untuk nama */
 h1 {
     font-size: 28px;
     color: #2e4053;
     margin: 0;
 }
 
+/* Mengatur tampilan untuk judul bagian */
 h2 {
     font-size: 22px;
     text-transform: uppercase;
@@ -45,6 +51,7 @@ h2 {
     color: #1e8449;
 }
 
+/* Mengatur tampilan link kontak */
 .contact-link {
     display: inline-block;
     padding: 10px 15px;
@@ -54,6 +61,7 @@ h2 {
     border-radius: 5px;
 }
 
+/* Efek hover ketika kursor diarahkan ke link */
 .contact-link:hover {
     background: #145a32;
 }
