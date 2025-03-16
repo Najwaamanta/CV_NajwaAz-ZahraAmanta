@@ -2,41 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <link rel="stylesheet" href="style_contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Membuat tampilan agar bisa menyesuaikan di HP atau laptop -->
+    <title>Contact Form</title> <!-- Judul halaman yang tampil di tab browser -->
+    <link rel="stylesheet" href="style_contact.css"> <!-- Menghubungkan halaman HTML dengan file CSS -->
 </head>
 <body>
     <div class="container">
-        <h2>Contact Form</h2>
+        <h2>Contact Form</h2> <!-- Judul halaman -->
         <form action="https://formspree.io/f/mnnpqoaj" method="POST" class="contact-form">
-            <label for="name">Nama:</label>
-            <input type="text" id="name" name="name" required>
+        <!-- Formulir yang akan mengirim data ke Formspree, digunakan unutk menghubungkan formulir HTML ke Email -->
             
-            <label for="phone">No Hp:</label>
-            <input type="text" id="phone" name="phone" required>
+            <label for="name">Nama:</label> <!-- Label untuk nama -->
+            <input type="text" id="name" name="name" required> <!-- Input nama -->
             
-            <label for="gender">Jenis Kelamin:</label>
-            <select id="gender" name="gender">
+            <label for="phone">No Hp:</label> <!-- Label untuk nomor HP -->
+            <input type="text" id="phone" name="phone" required> <!-- Input nomor HP -->
+            
+            <label for="gender">Jenis Kelamin:</label> <!-- Label untuk jenis kelamin -->
+            <select id="gender" name="gender"> <!-- Dropdown pilihan jenis kelamin -->
                 <option value="Laki-Laki">Laki-Laki</option>
                 <option value="Perempuan">Perempuan</option>
             </select>
             
-            <label for="education">Pendidikan:</label>
-            <select id="education" name="education">
+            <label for="education">Pendidikan:</label> <!-- Label untuk pendidikan -->
+            <select id="education" name="education"> <!-- Dropdown pilihan pendidikan -->
                 <option value="SD">SD</option>
                 <option value="SMP">SMP</option>
                 <option value="SMA">SMA</option>
                 <option value="S1">S1</option>
             </select>
             
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">E-mail:</label> <!-- Label untuk email -->
+            <input type="email" id="email" name="email" required> <!-- Input email -->
             
-            <label for="message">Pesan:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message">Pesan:</label> <!-- Label untuk pesan -->
+            <textarea id="message" name="message" rows="4" required></textarea> <!-- Textarea untuk menulis pesan -->
             
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button> <!-- Tombol untuk mengirim -->
        
     </div>
 
